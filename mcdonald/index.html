@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Virtual McDonalds</title>
+    <style>
+        #ordered-items{
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #ordered-items li{
+            list-style: none;
+        }
+        #order-id{
+            margin-right: 20px;
+            text-align: right;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        
+            <input  type="checkbox" class="food" value="burger">
+            <label>Burger</label><br>
+            <input  type="checkbox" class="food" value="mcPuff">
+            <label>McPuff</label><br>
+            <input  type="checkbox" class="food" value="wrap">
+            <label>Wrap</label><br>
+            <input  type="checkbox" class="food" value="cold_drink">
+            <label>Cold Drink</label><br>
+            <input  type="checkbox" class="food" value="coffee">
+            <label>Coffee</label><br><br>
+            <button id="btn" type="submit">Order Food</button>
+       
+
+       
+        <div id = "ordered-items" >
+            <ul></ul>
+            
+        </div>
+
+        <div id = "order-id" ></div>
+    </section>
+    <script src="./src/McDonalds.js" ></script>
+</body>
+</html>
